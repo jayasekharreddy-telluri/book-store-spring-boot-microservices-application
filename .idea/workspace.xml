@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catlog service module : --fix :: Add chmod step to set execute permissions for Maven wrapper in CI workflow" />
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catlog service module changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732210111346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="catlog service module changes">
+      <created>1732210627013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732210627013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -163,7 +170,8 @@
     <MESSAGE value="project created" />
     <MESSAGE value="catlog service module set-up" />
     <MESSAGE value="catlog service module : --fix :: Add chmod step to set execute permissions for Maven wrapper in CI workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="catlog service module : --fix :: Add chmod step to set execute permissions for Maven wrapper in CI workflow" />
+    <MESSAGE value="catlog service module changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="catlog service module changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

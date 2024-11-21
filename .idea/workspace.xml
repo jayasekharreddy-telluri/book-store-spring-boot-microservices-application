@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="project created">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/CatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/TestCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/TestCatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/TestcontainersConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catlog service module set-up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732124162842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="catlog service module set-up">
+      <created>1732209782270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732209782271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -148,9 +141,21 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="project created" />
+    <MESSAGE value="catlog service module set-up" />
+    <option name="LAST_COMMIT_MESSAGE" value="catlog service module set-up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

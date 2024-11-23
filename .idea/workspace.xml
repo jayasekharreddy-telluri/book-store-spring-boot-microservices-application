@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catlog service module application property file">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/CatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/CatalogServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/jailabs/catalog_service/CatalogServiceApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catlog-api and docker changes done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -224,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732212458624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="catlog-api and docker changes done">
+      <created>1732370116265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732370116266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -254,7 +252,8 @@
     <MESSAGE value="catlog service module : --fix :: Add chmod step to set execute permissions for Maven wrapper in CI workflow" />
     <MESSAGE value="catlog service module changes" />
     <MESSAGE value="catlog service module application property file" />
-    <option name="LAST_COMMIT_MESSAGE" value="catlog service module application property file" />
+    <MESSAGE value="catlog-api and docker changes done" />
+    <option name="LAST_COMMIT_MESSAGE" value="catlog-api and docker changes done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

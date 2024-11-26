@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="catalog-servic app - log line removed from ProductController class">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="created order-servic api and rabit mq configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spotless-index" beforeDir="false" afterPath="$PROJECT_DIR$/target/spotless-index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/ApplicationProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/rabitmqtest/RabbitMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/rabitmqtest/RabbitMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/rabitmqtest/RabbitMQListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/jailabs/order_service/web/rabitmqtest/RabbitMQListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/book-store-application/book-store-spring-boot-microservices-application",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/book-store-application/book-store-spring-boot-microservices-application&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jailabs.catalog_service.domain" />
@@ -82,10 +82,11 @@
       <recent name="C:\book-store-application\spring-boot-microservices-course\catalog-service\src\test\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jailabs.order_service.web.controllers" />
       <recent name="com.jailabs.catalog_service.web.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="JUnit.OrderControllerTests">
     <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jailabs.order_service.OrderServiceApplication" />
       <module name="order-service" />
@@ -112,6 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jailabs.order_service.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jailabs.order_service.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.jailabs.order_service.web.controllers.OrderControllerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderControllerUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jailabs.order_service.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jailabs.order_service.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.jailabs.order_service.web.controllers.OrderControllerUnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductControllerTest.shouldGetProductByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="catalog-service" />
       <extension name="coverage">
@@ -128,45 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest.shouldGetProductByCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="catalog-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jailabs.catalog_service.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jailabs.catalog_service.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.jailabs.catalog_service.domain.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldGetProductByCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepositoryTest.shouldReturnEmptyWhenProductCodeNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="catalog-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jailabs.catalog_service.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jailabs.catalog_service.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.jailabs.catalog_service.domain.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldReturnEmptyWhenProductCodeNotExists" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderControllerTests" />
+        <item itemvalue="JUnit.OrderControllerUnitTests" />
         <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.TestOrderServiceApplication" />
         <item itemvalue="JUnit.ProductControllerTest.shouldGetProductByCode" />
-        <item itemvalue="JUnit.ProductRepositoryTest.shouldReturnEmptyWhenProductCodeNotExists" />
-        <item itemvalue="JUnit.ProductRepositoryTest.shouldGetProductByCode" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732455866663</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created order-servic api and rabit mq configuration">
+      <created>1732559010450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732559010450</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -290,7 +296,8 @@
     <MESSAGE value="branch renamed" />
     <MESSAGE value="catalog-service.yml file changes" />
     <MESSAGE value="catalog-servic app - log line removed from ProductController class" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalog-servic app - log line removed from ProductController class" />
+    <MESSAGE value="created order-servic api and rabit mq configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="created order-servic api and rabit mq configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

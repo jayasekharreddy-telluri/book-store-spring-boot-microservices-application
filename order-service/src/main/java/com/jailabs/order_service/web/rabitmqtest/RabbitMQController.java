@@ -16,9 +16,7 @@ public class RabbitMQController {
     }
 
     @PostMapping("/publish")
-    public String publishMessage(
-            @RequestParam String routingKey,
-            @RequestBody String message) {
+    public String publishMessage(@RequestParam String routingKey, @RequestBody String message) {
 
         // Replace 'orders-exchange' with your exchange name
         rabbitTemplate.convertAndSend("orders-exchange", routingKey, message);

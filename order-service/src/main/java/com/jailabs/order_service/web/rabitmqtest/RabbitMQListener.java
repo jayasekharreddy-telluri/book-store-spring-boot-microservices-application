@@ -1,6 +1,5 @@
 package com.jailabs.order_service.web.rabitmqtest;
 
-
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 

@@ -1,16 +1,15 @@
 package com.jailabs.order_service.testdata;
 
+import static org.instancio.Select.field;
+
 import com.jailabs.order_service.domain.models.Address;
 import com.jailabs.order_service.domain.models.CreateOrderRequest;
 import com.jailabs.order_service.domain.models.Customer;
 import com.jailabs.order_service.domain.models.OrderItem;
-import org.instancio.Instancio;
-
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Set;
-
-import static org.instancio.Select.field;
+import org.instancio.Instancio;
 
 public class TestDataFactory {
     static final List<String> VALID_COUNTIES = List.of("India", "Germany");

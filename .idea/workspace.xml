@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="created order-service apis and dockerized the application">
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="created notification-service and dockerized the application">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taskfile.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Taskfile.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/apps.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker-compose/infra.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/order-service" />
+        <entry key="$PROJECT_DIR$" value="feature/notification-service" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732946702964</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="created notification-service and dockerized the application">
+      <created>1732962731200</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732962731200</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -314,7 +320,8 @@
     <MESSAGE value="catalog-servic app - log line removed from ProductController class" />
     <MESSAGE value="created order-servic api and rabit mq configuration" />
     <MESSAGE value="created order-service apis and dockerized the application" />
-    <option name="LAST_COMMIT_MESSAGE" value="created order-service apis and dockerized the application" />
+    <MESSAGE value="created notification-service and dockerized the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="created notification-service and dockerized the application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

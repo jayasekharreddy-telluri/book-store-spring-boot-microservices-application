@@ -1,7 +1,6 @@
+/*
 package com.jailabs.order_service.web.rabitmqtest;
 
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Service;
 
 @Service
 public class RabbitMQListener {
@@ -26,3 +25,4 @@ public class RabbitMQListener {
         System.out.println("Received on Error Orders Queue: " + message);
     }
 }
+*/

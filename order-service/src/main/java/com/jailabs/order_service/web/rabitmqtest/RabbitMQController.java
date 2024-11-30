@@ -1,8 +1,6 @@
+/*
 package com.jailabs.order_service.web.rabitmqtest;
 
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/orders")
@@ -23,3 +21,4 @@ public class RabbitMQController {
         return "Message sent to RabbitMQ with routing key: " + routingKey;
     }
 }
+*/

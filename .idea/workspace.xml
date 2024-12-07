@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="created webapp application and dockerized the application and done configuartion for grafana etc">
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/AbstractIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/AbstractIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/MockOAuth2UserContextFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/WithMockOAuth2User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/testdata/TestDataFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/GetOrdersTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerUnitTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,20 +98,7 @@
       <recent name="com.jai.notification_service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderControllerTests">
-    <configuration name="BookstoreWebappApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jailabs.webapp.BookstoreWebappApplication" />
-      <module name="bookstore-webapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jailabs.webapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OrderServiceApplication">
     <configuration name="CatalogServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jailabs.catalog_service.CatalogServiceApplication" />
       <module name="catalog-service" />
@@ -145,6 +138,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetOrdersTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jailabs.order_service.web.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jailabs.order_service.web.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.jailabs.order_service.web.controllers.GetOrdersTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderControllerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="order-service" />
       <extension name="coverage">
@@ -162,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="JUnit.GetOrdersTests" />
         <item itemvalue="JUnit.OrderControllerTests" />
         <item itemvalue="Application.TestCatalogServiceApplication" />
         <item itemvalue="Application.CatalogServiceApplication" />
-        <item itemvalue="Application.OrderServiceApplication" />
-        <item itemvalue="Application.BookstoreWebappApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733558279669</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests">
+      <created>1733559700823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733559700823</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -337,7 +352,8 @@
     <MESSAGE value="created notification-service and dockerized the application" />
     <MESSAGE value="created api-gateway-service and dockerized the application" />
     <MESSAGE value="created webapp application and dockerized the application and done configuartion for grafana etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="created webapp application and dockerized the application and done configuartion for grafana etc" />
+    <MESSAGE value="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

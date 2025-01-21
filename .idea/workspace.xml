@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests">
+    <list default="true" id="d6713857-7017-40ac-a121-9f251bb7e1dd" name="Changes" comment="indetation corrected in abstract method of order-service-application">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/bookstore-webapp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/bookstore-webapp.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/AbstractIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/AbstractIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/MockOAuth2UserContextFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/WithMockOAuth2User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/testdata/TestDataFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/GetOrdersTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/jailabs/order_service/web/controllers/OrderControllerUnitTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/api-gateway-service" />
+        <entry key="$PROJECT_DIR$" value="feature/webapp" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +58,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/book-store-application/book-store-spring-boot-microservices-application/.github/workflows&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/book-store-application/book-store-spring-boot-microservices-application&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -313,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733559700823</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="deleted test folders from order-service-applicATION">
+      <created>1733578444564</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733578444564</updated>
+    </task>
+    <task id="LOCAL-00020" summary="deleted test folders from order-service-applicATION">
+      <created>1733578572623</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733578572623</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -353,26 +361,16 @@
     <MESSAGE value="created api-gateway-service and dockerized the application" />
     <MESSAGE value="created webapp application and dockerized the application and done configuartion for grafana etc" />
     <MESSAGE value="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add @AutoConfigureMockMvc to AbstractIT for MockMvc injection in tests" />
+    <MESSAGE value="deleted test folders from order-service-applicATION" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted test folders from order-service-applicATION" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/web/controllers/ProductController.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/CatalogServiceApplication.java</url>
           <line>8</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/catalog-service/src/main/java/com/jailabs/catalog_service/web/controllers/ProductController.java</url>
-          <line>13</line>
-          <properties field="productService" class="com.jailabs.catalog_service.web.ProductController" />
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

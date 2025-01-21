@@ -1,0 +1,25 @@
+name: Daily Update
+
+on:
+  schedule:
+    # Runs daily at 10 AM and 8 PM India Time (IST is UTC+5:30, so times are 4:30 AM and 2:30 PM UTC)
+    - cron: '0 4 * * *' # 10:00 AM IST
+    - cron: '30 14 * * *' # 8:00 PM IST
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update Dummy File
+        run: |
+          echo "Last updated: $(date)" > update.txt
+          git config --global user.name "jayasekharreddy-telluri"
+          git config --global user.email "varshitjai@gmail.com"
+          git add update.txt
+          git commit -m "Daily update on $(date)"
+          git push origin daily-update

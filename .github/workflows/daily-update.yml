@@ -1,25 +1,30 @@
-name: Daily Update
+name: Update File Every 2 Minutes
 
 on:
   schedule:
-    # Runs daily at 10 AM and 8 PM India Time (IST is UTC+5:30, so times are 4:30 AM and 2:30 PM UTC)
-    - cron: '0 4 * * *' # 10:00 AM IST
-    - cron: '30 14 * * *' # 8:00 PM IST
-  workflow_dispatch: # Allows manual trigger
+    # Runs every 2 minutes
+    - cron: '*/2 * * * *'  # This runs every 2 minutes
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
+      # Set up Git configuration
+      - name: Set up Git Configuration
+        run: |
+          git config --global user.name "jayasekharreddy-telluri"
+          git config --global user.email "varshitjai@gmail.com"
+
+      # Update the update.txt file with the current timestamp
       - name: Update Dummy File
         run: |
           echo "Last updated: $(date)" > update.txt
-          git config --global user.name "jayasekharreddy-telluri"
-          git config --global user.email "varshitjai@gmail.com"
           git add update.txt
           git commit -m "Daily update on $(date)"
           git push origin daily-update
